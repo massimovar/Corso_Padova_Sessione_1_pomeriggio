@@ -1,0 +1,33 @@
+Name: MyMotors
+Type: FolderType
+Children:
+- Name: MyMotor1
+  Id: g=f9e23856131653914a319f977a4cc6ee
+  Type: MyMotor
+  Children:
+  - Name: on
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: speed
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: MyMotor2
+  Id: g=2a3a17d97e6267e44561bd00ee9d8609
+  Type: MyMotor
+  Children:
+  - Name: on
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: speed
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: MyMotor3
+  Id: g=6c259ded7ebd703457bd48843cd97b00
+  Type: MyMotor
+  Children:
+  - Name: on
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: speed
+    Type: BaseDataVariableType
+    DataType: Int32
